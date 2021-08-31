@@ -6,6 +6,7 @@ def new():
         cms = height * 30.48
         print(f"Height in CMS is {cms}")
 
+    elif unit == "C":
         ft = float(input("\nEnter your Height in CMS: "))
         feet = ft / 30.48
         print(f"Your height in Feet is {feet}")
